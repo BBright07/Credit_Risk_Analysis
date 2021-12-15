@@ -15,17 +15,22 @@ Results:
 The balanced accuracy scores are as follows -- Oversampling (0.67), SMOTE (0.68), Undersampling (0.52),SMOTEENN (0.68), Balanceed Random Forest Classifier (0.79), Easy Ensemble AdaBoost Classifier (0.93).
 
 Oversampling had a precision of and recall of 
+-----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/Oversampling.PNG)
 
 SMOTE (Oversampling) had a precision of and recall of 
-
+----------------------------------------------- 
 Undersampling had a precision of and recall of 
+-----------------------------------------------
 
 SMOTEENN had a precision of and recall of 
+-----------------------------------------------
 
 Balanceed Random Forest Classifier had a precision of and recall of 
+-----------------------------------------------
 
 Ensemble AdaBoost Classifier had a precision of and recall of 
+-----------------------------------------------
 
 Summary:
  The methods used employed undersampling, oversampling as well as a combination of both. The accuracy proved to be higher with the ensemble algorithms. Within the other algorithms the most accurate was SMOTE at 0.683 followed by SMOTEEN at 0.679 (rounded to 0.68). As for the Ensemble Classifier, it deemed to be the most precise of all the algorithms attempted. Indeed, this proves to also be the most reliable given the equilibrium there is between accuracy as well as precision. 
