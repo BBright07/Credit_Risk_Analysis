@@ -20,17 +20,22 @@ Oversampling had a precision of and recall of
 
 SMOTE (Oversampling) had a precision of and recall of 
 ----------------------------------------------- 
-Undersampling had a precision of and recall of 
+![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/SMOTE.PNG)
+Cluster Centroids had a precision of and recall of 
 -----------------------------------------------
+![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.PNG)
 
 SMOTEENN had a precision of and recall of 
 -----------------------------------------------
+![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/SMOTEEN.PNG)
 
 Balanceed Random Forest Classifier had a precision of and recall of 
 -----------------------------------------------
+![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForestClassifier.PNG)
 
 Ensemble AdaBoost Classifier had a precision of and recall of 
 -----------------------------------------------
+![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20AdaBoost%20Classifier.PNG)
 
 Summary:
  The methods used employed undersampling, oversampling as well as a combination of both. The accuracy proved to be higher with the ensemble algorithms. Within the other algorithms the most accurate was SMOTE at 0.683 followed by SMOTEEN at 0.679 (rounded to 0.68). As for the Ensemble Classifier, it deemed to be the most precise of all the algorithms attempted. Indeed, this proves to also be the most reliable given the equilibrium there is between accuracy as well as precision. 
