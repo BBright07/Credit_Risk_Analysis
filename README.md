@@ -12,31 +12,30 @@ EasyEnsembleClassifier:"The classifier is an ensemble of AdaBoost learners train
 
 
 Results:
-The balanced accuracy scores are as follows -- Oversampling (0.67), SMOTE (0.68), Undersampling (0.52),SMOTEENN (0.68), Balanceed Random Forest Classifier (0.79), Easy Ensemble AdaBoost Classifier (0.93).
 
-Oversampling had a precision of 99% and recall of 66%
+Oversampling had a precision of 99% and recall of 66%, and accuracy of 67%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/Oversampling.PNG)
 
-SMOTE (Oversampling) had a precision of 99% and recall of 69%
+SMOTE (Oversampling) had a precision of 99% and recall of 69%, and accuracy of 68%
 ----------------------------------------------- 
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/SMOTE.PNG)
 
-Cluster Centroids had a precision of 99% and recall of 43%
+Cluster Centroids had a precision of 99% and recall of 43%, and accuracy of 52%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.PNG)
 
-SMOTEENN had a precision of 99% and recall of 58%
+SMOTEENN had a precision of 99% and recall of 58%, and accuracy of 68%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/SMOTEEN.PNG)
 
-Balanceed Random Forest Classifier had a precision of 99% and recall of 90%
+Balanceed Random Forest Classifier had a precision of 99% and recall of 90%, and accuracy of 79%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForestClassifier.PNG)
 
-Ensemble AdaBoost Classifier had a precision of 100% and recall of 94%
+Ensemble AdaBoost Classifier had a precision of 100% and recall of 94%, and accuracy of 93%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20AdaBoost%20Classifier.PNG)
 
 Summary:
- The methods used employed undersampling, oversampling as well as a combination of both. The accuracy proved to be higher with the ensemble algorithms. Within the other algorithms the most accurate was SMOTE at 0.683 followed by SMOTEEN at 0.679 (rounded to 0.68). As for the Ensemble Classifier, it deemed to be the most precise of all the algorithms attempted. Indeed, this proves to also be the most reliable given the equilibrium there is between accuracy as well as precision. 
+The methods used employed undersampling, oversampling as well as a combination of both. The findings highlighted overall high precision with variations in recall and accurracy across the board. Precision is the proportion of true positives over *actual* results while recall is the proportion of true positives over *predicted* results. The model with the best predictions was the Ensemble and the model with the worst prediction or recall was the Cluster model that used a combination of oversampling and undersampling. The model with the best precision is again the Ensemble model with all the other models falling behind by 1%. The decisive factor to identify the best model was therefore the measure for accuracy. The highest accuracy was identified in the Ensemble model at 93% and the lowest accuracy was at 52% for the Cluster Centroids model. Overall, the Ensemble AdaBoost Classifier was the most reliable model to identify credit client risk for creditors interested in integrating machine learning in their framework.
