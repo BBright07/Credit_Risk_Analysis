@@ -14,26 +14,27 @@ EasyEnsembleClassifier:"The classifier is an ensemble of AdaBoost learners train
 Results:
 The balanced accuracy scores are as follows -- Oversampling (0.67), SMOTE (0.68), Undersampling (0.52),SMOTEENN (0.68), Balanceed Random Forest Classifier (0.79), Easy Ensemble AdaBoost Classifier (0.93).
 
-Oversampling had a precision of and recall of 
+Oversampling had a precision of 99% and recall of 66%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/Oversampling.PNG)
 
-SMOTE (Oversampling) had a precision of and recall of 
+SMOTE (Oversampling) had a precision of 99% and recall of 69%
 ----------------------------------------------- 
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/SMOTE.PNG)
-Cluster Centroids had a precision of and recall of 
+
+Cluster Centroids had a precision of 99% and recall of 43%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/ClusterCentroids.PNG)
 
-SMOTEENN had a precision of and recall of 
+SMOTEENN had a precision of 99% and recall of 58%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/SMOTEEN.PNG)
 
-Balanceed Random Forest Classifier had a precision of and recall of 
+Balanceed Random Forest Classifier had a precision of 99% and recall of 90%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/BalancedRandomForestClassifier.PNG)
 
-Ensemble AdaBoost Classifier had a precision of and recall of 
+Ensemble AdaBoost Classifier had a precision of 100% and recall of 94%
 -----------------------------------------------
 ![Oversampling](https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20AdaBoost%20Classifier.PNG)
 
