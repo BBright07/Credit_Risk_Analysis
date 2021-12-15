@@ -15,6 +15,7 @@ Results:
 The balanced accuracy scores are as follows -- Oversampling (0.67), SMOTE (0.68), Undersampling (0.52),SMOTEENN (0.68), Balanceed Random Forest Classifier (0.79), Easy Ensemble AdaBoost Classifier (0.93).
 
 Oversampling had a precision of and recall of 
+https://github.com/BBright07/Credit_Risk_Analysis/blob/main/Images/Oversampling.PNG 
 
 SMOTE (Oversampling) had a precision of and recall of 
 
